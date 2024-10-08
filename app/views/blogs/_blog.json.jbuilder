@@ -1,2 +1,4 @@
-json.extract! blog, :id, :created_at, :updated_at
-json.url blog_url(blog, format: :json)
+json.id blog.id
+json.title blog.title
+json.body blog.body
+json.user_id blog.user_id

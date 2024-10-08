@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   post "/users" => "users#create"
   post "/sessions" => "sessions#create"
 
+  get "blogs" => "blogs#index"
+
   # Defines the root path route ("/")
   # root "posts#index"
 end
